@@ -1,0 +1,27 @@
+﻿@model QLBANSACH.Models.SACH
+
+@{
+    ViewBag.Title = "Chi Tiết Sách"; // Tiêu đề của trang
+}
+
+<h1>@Model.Tensach</h1> <!-- Hiển thị tên sách -->
+
+<div>
+
+    <div id="templatemo_content_right">
+        <div class="templatemo_product_box">
+            <h3>Thông tin sách</h3>
+            <p><strong>Mô tả:</strong> @Model.Mota</p>
+            <img src="~/Content/Images/Hinhsanpham/@Model.Anhbia" alt="@Model.Tensach" style="width:200px; height:200px; object-fit:cover;" />
+            <p><strong>Giá bán:</strong> @Model.Giaban</p>
+            <p>
+                <strong>Nhà xuất bản:</strong> @Model.NHAXUATBAN.TenNXB
+
+
+                <div>
+                    <a href="@Url.Action("Index", "Home")">Trở lại danh sách sách</a> <!-- Liên kết trở lại danh sách -->
+                </div>
+
+        </div>
+    </div>
+</div>

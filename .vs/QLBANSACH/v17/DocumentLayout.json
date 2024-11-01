@@ -1,0 +1,223 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\MyPC\\Documents\\Project\\QLBANSACH\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3B8DA528-5318-47F7-8CD0-D1DB07C92FCC}|QLBANSACH\\QLBANSACH.csproj|c:\\users\\mypc\\documents\\project\\qlbansach\\qlbansach\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3B8DA528-5318-47F7-8CD0-D1DB07C92FCC}|QLBANSACH\\QLBANSACH.csproj|solutionrelative:qlbansach\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B8DA528-5318-47F7-8CD0-D1DB07C92FCC}|QLBANSACH\\QLBANSACH.csproj|C:\\Users\\MyPC\\Documents\\Project\\QLBANSACH\\qlbansach\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3B8DA528-5318-47F7-8CD0-D1DB07C92FCC}|QLBANSACH\\QLBANSACH.csproj|solutionrelative:qlbansach\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B8DA528-5318-47F7-8CD0-D1DB07C92FCC}|QLBANSACH\\QLBANSACH.csproj|C:\\Users\\MyPC\\Documents\\Project\\QLBANSACH\\qlbansach\\views\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3B8DA528-5318-47F7-8CD0-D1DB07C92FCC}|QLBANSACH\\QLBANSACH.csproj|solutionrelative:qlbansach\\views\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B8DA528-5318-47F7-8CD0-D1DB07C92FCC}|QLBANSACH\\QLBANSACH.csproj|C:\\Users\\MyPC\\Documents\\Project\\QLBANSACH\\qlbansach\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B8DA528-5318-47F7-8CD0-D1DB07C92FCC}|QLBANSACH\\QLBANSACH.csproj|solutionrelative:qlbansach\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B8DA528-5318-47F7-8CD0-D1DB07C92FCC}|QLBANSACH\\QLBANSACH.csproj|c:\\users\\mypc\\documents\\project\\qlbansach\\qlbansach\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{3B8DA528-5318-47F7-8CD0-D1DB07C92FCC}|QLBANSACH\\QLBANSACH.csproj|solutionrelative:qlbansach\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B8DA528-5318-47F7-8CD0-D1DB07C92FCC}|QLBANSACH\\QLBANSACH.csproj|C:\\Users\\MyPC\\Documents\\Project\\QLBANSACH\\qlbansach\\views\\home\\nhaxuatban.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3B8DA528-5318-47F7-8CD0-D1DB07C92FCC}|QLBANSACH\\QLBANSACH.csproj|solutionrelative:qlbansach\\views\\home\\nhaxuatban.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B8DA528-5318-47F7-8CD0-D1DB07C92FCC}|QLBANSACH\\QLBANSACH.csproj|C:\\Users\\MyPC\\Documents\\Project\\QLBANSACH\\qlbansach\\views\\home\\category.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3B8DA528-5318-47F7-8CD0-D1DB07C92FCC}|QLBANSACH\\QLBANSACH.csproj|solutionrelative:qlbansach\\views\\home\\category.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B8DA528-5318-47F7-8CD0-D1DB07C92FCC}|QLBANSACH\\QLBANSACH.csproj|C:\\Users\\MyPC\\Documents\\Project\\QLBANSACH\\qlbansach\\views\\home\\sptheonhaxuatban.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3B8DA528-5318-47F7-8CD0-D1DB07C92FCC}|QLBANSACH\\QLBANSACH.csproj|solutionrelative:qlbansach\\views\\home\\sptheonhaxuatban.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B8DA528-5318-47F7-8CD0-D1DB07C92FCC}|QLBANSACH\\QLBANSACH.csproj|C:\\Users\\MyPC\\Documents\\Project\\QLBANSACH\\qlbansach\\views\\home\\sptheochude.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3B8DA528-5318-47F7-8CD0-D1DB07C92FCC}|QLBANSACH\\QLBANSACH.csproj|solutionrelative:qlbansach\\views\\home\\sptheochude.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B8DA528-5318-47F7-8CD0-D1DB07C92FCC}|QLBANSACH\\QLBANSACH.csproj|C:\\Users\\MyPC\\Documents\\Project\\QLBANSACH\\qlbansach\\views\\home\\search.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3B8DA528-5318-47F7-8CD0-D1DB07C92FCC}|QLBANSACH\\QLBANSACH.csproj|solutionrelative:qlbansach\\views\\home\\search.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B8DA528-5318-47F7-8CD0-D1DB07C92FCC}|QLBANSACH\\QLBANSACH.csproj|C:\\Users\\MyPC\\Documents\\Project\\QLBANSACH\\qlbansach\\controllers\\qlbansachcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B8DA528-5318-47F7-8CD0-D1DB07C92FCC}|QLBANSACH\\QLBANSACH.csproj|solutionrelative:qlbansach\\controllers\\qlbansachcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B8DA528-5318-47F7-8CD0-D1DB07C92FCC}|QLBANSACH\\QLBANSACH.csproj|C:\\Users\\MyPC\\Documents\\Project\\QLBANSACH\\qlbansach\\models\\dbqlbansach.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{3B8DA528-5318-47F7-8CD0-D1DB07C92FCC}|QLBANSACH\\QLBANSACH.csproj|solutionrelative:qlbansach\\models\\dbqlbansach.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\MyPC\\Documents\\Project\\QLBANSACH\\QLBANSACH\\Web.config",
+              "RelativeDocumentMoniker": "QLBANSACH\\Web.config",
+              "ToolTip": "C:\\Users\\MyPC\\Documents\\Project\\QLBANSACH\\QLBANSACH\\Web.config",
+              "RelativeToolTip": "QLBANSACH\\Web.config",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAEgAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-11-01T12:10:11.282Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\MyPC\\Documents\\Project\\QLBANSACH\\QLBANSACH\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "QLBANSACH\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\MyPC\\Documents\\Project\\QLBANSACH\\QLBANSACH\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "QLBANSACH\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABkAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-01T07:45:22.956Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\MyPC\\Documents\\Project\\QLBANSACH\\QLBANSACH\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "QLBANSACH\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\MyPC\\Documents\\Project\\QLBANSACH\\QLBANSACH\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "QLBANSACH\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAADAAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-01T07:40:41.545Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "NhaXuatBan.cshtml",
+              "DocumentMoniker": "C:\\Users\\MyPC\\Documents\\Project\\QLBANSACH\\QLBANSACH\\Views\\Home\\NhaXuatBan.cshtml",
+              "RelativeDocumentMoniker": "QLBANSACH\\Views\\Home\\NhaXuatBan.cshtml",
+              "ToolTip": "C:\\Users\\MyPC\\Documents\\Project\\QLBANSACH\\QLBANSACH\\Views\\Home\\NhaXuatBan.cshtml",
+              "RelativeToolTip": "QLBANSACH\\Views\\Home\\NhaXuatBan.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-01T09:56:04.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\MyPC\\Documents\\Project\\QLBANSACH\\QLBANSACH\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "QLBANSACH\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\MyPC\\Documents\\Project\\QLBANSACH\\QLBANSACH\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "QLBANSACH\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAAADQAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T07:39:43.627Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\MyPC\\Documents\\Project\\QLBANSACH\\QLBANSACH\\Views\\Home\\Details.cshtml",
+              "RelativeDocumentMoniker": "QLBANSACH\\Views\\Home\\Details.cshtml",
+              "ToolTip": "C:\\Users\\MyPC\\Documents\\Project\\QLBANSACH\\QLBANSACH\\Views\\Home\\Details.cshtml",
+              "RelativeToolTip": "QLBANSACH\\Views\\Home\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-01T09:56:38.799Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Category.cshtml",
+              "DocumentMoniker": "C:\\Users\\MyPC\\Documents\\Project\\QLBANSACH\\QLBANSACH\\Views\\Home\\Category.cshtml",
+              "RelativeDocumentMoniker": "QLBANSACH\\Views\\Home\\Category.cshtml",
+              "ToolTip": "C:\\Users\\MyPC\\Documents\\Project\\QLBANSACH\\QLBANSACH\\Views\\Home\\Category.cshtml",
+              "RelativeToolTip": "QLBANSACH\\Views\\Home\\Category.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-01T09:55:43.303Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SPtheonhaxuatban.cshtml",
+              "DocumentMoniker": "C:\\Users\\MyPC\\Documents\\Project\\QLBANSACH\\QLBANSACH\\Views\\Home\\SPtheonhaxuatban.cshtml",
+              "RelativeDocumentMoniker": "QLBANSACH\\Views\\Home\\SPtheonhaxuatban.cshtml",
+              "ToolTip": "C:\\Users\\MyPC\\Documents\\Project\\QLBANSACH\\QLBANSACH\\Views\\Home\\SPtheonhaxuatban.cshtml",
+              "RelativeToolTip": "QLBANSACH\\Views\\Home\\SPtheonhaxuatban.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-01T09:56:25.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SPtheochude.cshtml",
+              "DocumentMoniker": "C:\\Users\\MyPC\\Documents\\Project\\QLBANSACH\\QLBANSACH\\Views\\Home\\SPtheochude.cshtml",
+              "RelativeDocumentMoniker": "QLBANSACH\\Views\\Home\\SPtheochude.cshtml",
+              "ToolTip": "C:\\Users\\MyPC\\Documents\\Project\\QLBANSACH\\QLBANSACH\\Views\\Home\\SPtheochude.cshtml",
+              "RelativeToolTip": "QLBANSACH\\Views\\Home\\SPtheochude.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-01T09:56:16.179Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Search.cshtml",
+              "DocumentMoniker": "C:\\Users\\MyPC\\Documents\\Project\\QLBANSACH\\QLBANSACH\\Views\\Home\\Search.cshtml",
+              "RelativeDocumentMoniker": "QLBANSACH\\Views\\Home\\Search.cshtml",
+              "ToolTip": "C:\\Users\\MyPC\\Documents\\Project\\QLBANSACH\\QLBANSACH\\Views\\Home\\Search.cshtml",
+              "RelativeToolTip": "QLBANSACH\\Views\\Home\\Search.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-01T09:56:48.763Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "QLBANSACHController.cs",
+              "DocumentMoniker": "C:\\Users\\MyPC\\Documents\\Project\\QLBANSACH\\QLBANSACH\\Controllers\\QLBANSACHController.cs",
+              "RelativeDocumentMoniker": "QLBANSACH\\Controllers\\QLBANSACHController.cs",
+              "ToolTip": "C:\\Users\\MyPC\\Documents\\Project\\QLBANSACH\\QLBANSACH\\Controllers\\QLBANSACHController.cs",
+              "RelativeToolTip": "QLBANSACH\\Controllers\\QLBANSACHController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T08:20:37.513Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "dbQLBANSACH.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\Users\\MyPC\\Documents\\Project\\QLBANSACH\\QLBANSACH\\Models\\dbQLBANSACH.edmx",
+              "RelativeDocumentMoniker": "QLBANSACH\\Models\\dbQLBANSACH.edmx",
+              "ToolTip": "C:\\Users\\MyPC\\Documents\\Project\\QLBANSACH\\QLBANSACH\\Models\\dbQLBANSACH.edmx [Diagram1]",
+              "RelativeToolTip": "QLBANSACH\\Models\\dbQLBANSACH.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2024-11-01T08:12:12.13Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+﻿@model IEnumerable<QLBANSACH.Models.CHUDE>
+<div class="list-group">
+    @foreach (var item in Model)
+    {
+        <a href="@Url.Action("SPtheochude", "Home", new { id = item.MaCD })" class="list-group-item">
+            @item.TenChuDe <!-- Hiển thị tên của mỗi chủ đề -->
+        </a>
+        <br />
+    }
+</div>
