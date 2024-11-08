@@ -17,11 +17,14 @@
             <p>
                 <strong>Nhà xuất bản:</strong> @Model.NHAXUATBAN.TenNXB
 
+                <div>
+                    <a href="@Url.Action("ThemGioHang","GioHang" ,new { MaSach = Model.Masach })">Mua</a>
+                </div>
 
                 <div>
                     <a href="@Url.Action("Index", "Home")">Trở lại danh sách sách</a> <!-- Liên kết trở lại danh sách -->
                 </div>
 
-        </div>
+</div>
     </div>
 </div>

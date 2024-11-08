@@ -1,0 +1,59 @@
+﻿@model QLBANSACH.Models.DatHangViewModel
+
+@{
+    ViewBag.Title = "Đặt Hàng";
+}
+
+<div class="order-container">
+    <h2 class="section-title">Thông tin đơn hàng</h2>
+    <div class="order-details">
+        <p><strong>Họ và tên:</strong> @Model.KHACHHANG.HoTen</p>
+        <p><strong>Địa chỉ:</strong> @Model.KHACHHANG.DiachiKH</p>
+        <p><strong>Số điện thoại:</strong> @Model.KHACHHANG.DienthoaiKH</p>
+    </div>
+
+    @using (Html.BeginForm("DatHang", "GioHang", FormMethod.Post, new { @class = "order-form" }))
+    {
+        <div class="form-row">
+            <div class="form-group">
+                <label for="NgayDat">Ngày đặt:</label>
+                <input type="date" class="form-control" id="NgayDat" name="NgayDat" value="@Model.NgayDat.ToString("yyyy-MM-dd")" required />
+            </div>
+
+            <div class="form-group">
+                <label for="NgayGiao">Ngày giao:</label>
+                <input type="date" class="form-control" id="NgayGiao" name="NgayGiao" value="@Model.NgayGiao.ToString("yyyy-MM-dd")" required />
+            </div>
+        </div>
+
+        <h2 class="section-title">Thông tin giỏ hàng</h2>
+        <table class="table cart-table">
+            <thead>
+                <tr>
+                    <th>Tên sách</th>
+                    <th>Giá</th>
+                    <th>Số lượng</th>
+                    <th>Thành tiền</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.GioHang)
+                {
+                    <tr>
+                        <td>@item.Tensach</td>
+                        <td>@String.Format("{0:n0}", item.Dongia)</td>
+                        <td>@item.Soluong</td>
+                        <td>@String.Format("{0:n0}", item.ThanhTien)</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+
+        <div class="totals">
+            <h3>Tổng số lượng: <span>@Model.TongSoLuong</span></h3>
+            <h3>Tổng tiền: <span>@String.Format("{0:n0}", Model.TongTien)</span></h3>
+        </div>
+
+        <button type="submit" class="btn btn-success btn-confirm-order">Xác nhận đặt hàng</button>
+    }
+</div>

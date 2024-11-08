@@ -1,0 +1,58 @@
+﻿@model List<QLBANSACH.Models.GioHang>
+
+@{
+    ViewBag.Title = "Giỏ hàng";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Giỏ hàng</h2>
+
+<form action="@Url.Action("CapNhatGioHang", "GioHang")" method="post">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Mã sách</th>
+                <th>Ảnh bìa</th>
+                <th>Tên sách</th>
+                <th>Giá</th>
+                <th>Số lượng</th>
+                <th>Tổng tiền</th>
+                <th>Hành động</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @item.Masach
+                    </td>
+                    <td>
+                        <img src="~/Content/Images/Hinhsanpham/@item.Anhbia" alt="@item.Tensach" width="50" height="50" />
+
+                    </td>
+                    <td>@item.Tensach</td>
+                    <td>
+                        @item.Dongia
+                    </td>
+                    <td>
+                        <input name="soLuong[@item.Masach]" value="@item.Soluong" min="1" style="width:25px;" class="form-control" />
+                    </td>
+                    <td>
+                        @item.ThanhTien
+                    </td>
+                    <td>
+                        <a href="@Url.Action("XoaGioHang","GioHang", new { MaSach = item.Masach })" class="btn btn-danger">Xóa sản phẩm</a>
+                        <a href="@Url.Action("Details","Home" , new { id = item.Masach })" class=" btn btn-active"> Chi tiết</a>
+                    </td>
+                </tr>
+
+            }
+        </tbody>
+    </table>
+    <div class="total-price">
+        <h3>Tổng tiền: @ViewBag.TongTien</h3>
+    </div>
+</form>
+
+<a href="@Url.Action("DatHang", "GioHang")" class="btn btn-success">Đặt hàng</a>

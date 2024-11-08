@@ -21,7 +21,7 @@
             <div class="product_info">
                 <p>@sach.Mota</p>
                 <h3>@sach.Giaban</h3>
-                <div class="buy_now_button"><a href="@Url.Action("Buy", "Home", new { id = sach.Masach })">Buy Now</a></div>
+                <div class="buy_now_button"><a href="@Url.Action("ThemGioHang", "GioHang", new { MaSach = sach.Masach })">Buy Now</a></div>
                 <div class="detail_button"><a href="@Url.Action("Details", "Home", new { id = sach.Masach })">Detail</a></div>
             </div>
         </div>
