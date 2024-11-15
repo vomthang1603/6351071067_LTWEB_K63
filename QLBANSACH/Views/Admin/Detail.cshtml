@@ -1,0 +1,41 @@
+﻿@model QLBANSACH.Models.SACH
+
+@{
+    ViewBag.Title = "Detail";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2>Chi tiết sách</h2>
+
+<div>
+    <h4>@Model.Tensach</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>Giá</dt>
+        <dd>@Model.Giaban</dd>
+
+        <dt>Mô tả</dt>
+        <dd>@Model.Mota</dd>
+
+        <dt>Ảnh</dt>
+        <dd>
+            <img src="~/Content/Images/Hinhsanpham/@Model.Anhbia" alt="@Model.Tensach" width="200" />
+        </dd>
+
+        <dt>Ngày cập nhật</dt>
+        <dd>@Model.Ngaycapnhat</dd>
+
+        <dt>Stock Quantity</dt>
+        <dd>@Model.Soluongton</dd>
+
+        <dt>Chủ đề</dt>
+        <dd>@Model.CHUDE.TenChuDe</dd>
+
+        <dt>Nhà xuất bản</dt>
+        <dd>@Model.NHAXUATBAN.TenNXB</dd>
+    </dl>
+
+    <div>
+        @Html.ActionLink("Back to List", "Sach", null, new { @class = "btn btn-primary" })
+    </div>
+</div>

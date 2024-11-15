@@ -1,0 +1,51 @@
+﻿@model IEnumerable<dynamic>
+
+@{
+    ViewBag.Title = "Thống kê số lượng sách theo chủ đề";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2>Thống kê số lượng sách theo từng chủ đề</h2>
+
+<!-- Biểu đồ -->
+<canvas id="chart" width="400" height="200"></canvas>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<script>
+    // Lấy dữ liệu từ View (Dữ liệu được truyền từ Controller)
+    var data = @Html.Raw(Json.Encode(Model));
+
+    // Kiểm tra xem dữ liệu có tồn tại và hợp lệ không
+    if (data && data.length > 0) {
+        // Chuyển dữ liệu thành các mảng cho biểu đồ
+        var labels = data.map(function(item) { return item.TenChuDe; });
+        var quantities = data.map(function(item) { return item.SoLuong; });
+
+        // Cấu hình biểu đồ
+        var ctx = document.getElementById('chart').getContext('2d');
+        var chart = new Chart(ctx, {
+            type: 'bar',  // Chọn loại biểu đồ (bar, line, pie, ...)
+            data: {
+                labels: labels,  // Nhãn trục X (Tên chủ đề)
+                datasets: [{
+                    label: 'Số lượng sách',  // Tiêu đề biểu đồ
+                    data: quantities,  // Dữ liệu cho trục Y (Số lượng sách)
+                    backgroundColor: 'rgba(54, 162, 235, 0.2)',  // Màu nền cho thanh
+                    borderColor: 'rgba(54, 162, 235, 1)',  // Màu viền cho thanh
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                responsive: true,  // Đảm bảo biểu đồ tự động thay đổi kích thước khi thay đổi kích thước màn hình
+                scales: {
+                    y: {
+                        beginAtZero: true  // Đảm bảo trục Y bắt đầu từ 0
+                    }
+                }
+            }
+        });
+    } else {
+        console.log("No data available for chart");
+    }
+</script>

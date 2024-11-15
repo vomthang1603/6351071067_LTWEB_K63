@@ -1,0 +1,47 @@
+﻿@model QLBANSACH.Models.SACH
+
+@{
+    ViewBag.Title = "Delete Book";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2>Xóa sách</h2>
+
+<h3>Bạn có chắc muốn xóa cuốn sách này?</h3>
+<div>
+    <h4>@Model.Tensach</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>Giá</dt>
+        <dd>@Model.Giaban</dd>
+
+        <dt>Mô tả</dt>
+        <dd>@Model.Mota</dd>
+
+        <dt>Ảnh</dt>
+        <dd>
+            <img src="~/Content/Images/Hinhsanpham/@Model.Anhbia" alt="Book Cover" style="max-width: 100px; height: auto;" />
+        </dd>
+
+        <dt>Số lượng tồn</dt>
+        <dd>@Model.Soluongton</dd>
+
+        <dt>Chủ đề</dt>
+        <dd>@Model.CHUDE.TenChuDe</dd>
+
+        <dt>Nhà xuất bản</dt>
+        <dd>@Model.NHAXUATBAN.TenNXB</dd>
+    </dl>
+
+    @using (Html.BeginForm("Delete", "Admin", FormMethod.Post))
+    {
+        @Html.AntiForgeryToken()
+        @Html.HiddenFor(model => model.Masach)
+
+        <div class="form-group">
+            <input type="submit" value="Delete" class="btn btn-danger" /> |
+            @Html.ActionLink("Back to List", "Sach", null, new { @class = "btn btn-default" })
+        </div>
+    }
+
+</div>
